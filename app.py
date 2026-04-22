@@ -11,7 +11,7 @@ st.markdown("Real-time analysis of Maximal Extractable Value (MEV) sandwich atta
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/mev_sandwich_data.csv')
+    df = pd.read_csv('data/mev_sandwich_data.csv')
     df['block_time'] = pd.to_datetime(df['block_time'])
     return df
 
