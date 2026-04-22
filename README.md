@@ -6,6 +6,8 @@ Analysis of Maximal Extractable Value (MEV) sandwich attacks on Ethereum blockch
 
 This project analyzes MEV sandwich attacks - a form of frontrunning where bots extract profit by placing transactions before and after victim trades. Analysis covers 246 sandwich attacks over 2 days (April 17-19, 2026) with $5M+ in extracted profit.
 
+## Live Demo
+
 ### Streamlit App
 **[Open Streamlit App](https://mev-ethereum-analysis-6i7fjkzjvzge59aqvtwhpw.streamlit.app/)**
 
@@ -57,7 +59,9 @@ mev-ethereum-analysis/
 ├── streamlit_app/
 │   └── app.py
 ├── visualizations/
-└── README.md
+├── app.py
+├── README.md
+└── requirements.txt
 
 ## Installation
 
@@ -67,21 +71,15 @@ pip install dune-client pandas numpy matplotlib seaborn plotly streamlit
 
 ## Usage
 
-Run Jupyter Analysis:
+**Run Jupyter Analysis:**
 ```bash
 jupyter notebook notebooks/mev_analysis.ipynb
 ```
 
-Run Streamlit App:
+**Run Streamlit App:**
 ```bash
-cd streamlit_app
 streamlit run app.py
 ```
-
-## Live Demo
-
-- **Streamlit App**: [Add your deployed Streamlit link]
-- **Tableau Dashboard**: [Add your Tableau Public link]
 
 ## Results
 
@@ -93,11 +91,3 @@ MEV activity peaks at 8 AM UTC coinciding with US/European market opening, sugge
 
 ### Token Targeting
 USDT/USDC stablecoin pair accounts for 38% of all attacks due to high volume and predictable price impact, making sandwich opportunities easier to detect.
-
-## Author
-
-Anna Versens - Web3 Data Analyst
-
-## License
-
-MIT License
