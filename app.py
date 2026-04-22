@@ -6,7 +6,7 @@ from datetime import datetime
 
 st.set_page_config(page_title="MEV Sandwich Attack Monitor", layout="wide")
 
-st.title("MEV Sandwich Attack Monitor")
+st.title("🥪 MEV Sandwich Attack Monitor")
 st.markdown("Real-time analysis of Maximal Extractable Value (MEV) sandwich attacks on Ethereum")
 
 @st.cache_data
