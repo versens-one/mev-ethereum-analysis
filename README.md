@@ -48,6 +48,8 @@ Data retrieved from Dune Analytics using custom SQL query detecting sandwich att
 - **Analysis**: Jupyter Notebook
 
 ## Project Structure
+
+```
 mev-ethereum-analysis/
 ├── data/
 │   ├── mev_sandwich_data.csv
@@ -62,6 +64,7 @@ mev-ethereum-analysis/
 ├── app.py
 ├── README.md
 └── requirements.txt
+```
 
 ## Installation
 
